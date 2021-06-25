@@ -30,7 +30,7 @@ public class Login {
 		System.out.println("Enter Browser name");
 		String bn=sc.nextLine();
 		
-		if(bn.equalsIgnoreCase("chrome"))
+		if(bn.equalsIgnoreCase("CHROME"))
 		{
 			 ChromeOptions ops = new ChromeOptions();
 	         ops.addArguments("--disable-notifications");
